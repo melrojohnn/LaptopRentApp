@@ -4,6 +4,7 @@ public class Laptops {
     private String memory;
     private String hd;
     private String code;
+    private Double planPrice;
 
     private CPU cpu;
     private GPU gpu;
@@ -75,4 +76,12 @@ public class Laptops {
     public void setPlan(Plan plan) {
         this.plan = plan;
     }
+    public Double getPlanPrice() {
+        return planPrice;
+    }
+
+    public void setPlanPrice(Double planPrice) {
+        this.planPrice = planPrice;
+    }
+
 }
